@@ -1,0 +1,33 @@
+/* QUANTICO */
+
+/* Regular */
+@font-face {
+    font-family: "Quantico";
+    font-style: normal;
+    font-weight: normal;
+    src: url(./Quantico/Quantico-Regular.ttf);
+}
+
+/* Bold */
+@font-face {
+    font-family: "Quantico";
+    font-style: normal;
+    font-weight: bold;
+    src: url(./Quantico/Quantico-Bold.ttf);
+}
+
+/* Italic */
+@font-face {
+    font-family: "Quantico";
+    font-style: italic;
+    font-weight: normal;
+    src: url(./Quantico/Quantico-Italic.ttf);
+}
+
+/* Regular */
+@font-face {
+    font-family: "Quantico";
+    font-style: italic;
+    font-weight: bold;
+    src: url(./Quantico/Quantico-BoldItalic.ttf);
+}
