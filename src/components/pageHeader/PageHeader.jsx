@@ -5,12 +5,12 @@ function PageHeader() {
     return (
       <>
         <header className="header-style">
-          <nav className="navbar-style">
+          <nav className="header-navbar-style">
             <div className="header-logo">
               <img src={soundwaveLogo} alt="Soundwave Logo" className="header-logo-icon"/>
               <p className="header-logo-text">Soundwave</p>
             </div>
-            <ul className="navbar-pages">
+            <ul className="header-navbar-pages">
               <li>Discover</li>
               <li>Join</li>
             </ul>

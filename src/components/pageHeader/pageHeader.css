@@ -2,7 +2,7 @@
 
 .header-style {
 
-    .navbar-style {
+    .header-navbar-style {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -22,7 +22,7 @@
             }
         }
     
-        .navbar-pages {
+        .header-navbar-pages {
             width: 250px;
             border: 1px solid black;
             display: flex;
