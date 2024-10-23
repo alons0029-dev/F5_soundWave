@@ -15,11 +15,11 @@ function PageFooter() {
             <section className="social-networks">
                 <nav className="footer-social-network-nav">
                   <div className="social-twitter-container">
-                    <img src={twitterLogo} alt="twitter-logo" />
+                    <img className="social-icon" src={twitterLogo} alt="twitter-logo" />
                     <p className="twitter-text">Twitter</p>
                   </div>
                   <div className="social-facebook-container">
-                    <img src={facebookLogo} alt="facebook-logo" />
+                    <img className="social-icon" src={facebookLogo} alt="facebook-logo" />
                     <p className="facebook-text">Facebook</p>
                   </div>
                 </nav>
