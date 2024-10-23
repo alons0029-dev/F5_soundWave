@@ -1,4 +1,4 @@
-@import url(../../assets/fonts/fonts.css);
+@import url("../../index.css");
 
 .header-style {
 
@@ -18,7 +18,7 @@
 
             .header-logo-text {
                 font-size: 20px;
-                font-family: 'Quantico';
+                font-family: "Quantico";
             }
         }
     
