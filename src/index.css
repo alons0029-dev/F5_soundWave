@@ -35,3 +35,10 @@
     font-weight: 700;
     src: url("./assets/fonts/Quantico/Quantico-BoldItalic.ttf");
 }
+
+/* UNIVERSAL PROJECT STYLES */
+body {
+    color: #FFFFFF;
+    background-color: #2F303A;
+    font-family: 'Quantico';
+}
