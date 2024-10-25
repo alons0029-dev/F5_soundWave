@@ -1,3 +1,10 @@
+/* UNIVERSAL SELECTOR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* FONTS (Regular, Bold, Italic, Bold + Italic) */
 
 /* Quantico */

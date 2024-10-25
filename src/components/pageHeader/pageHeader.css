@@ -1,6 +1,7 @@
 @import url("../../index.css");
 
 .header-style {
+    font-family: 'Quantico';
 
     .header-navbar-style {
         display: flex;
@@ -17,8 +18,7 @@
             justify-content: space-evenly;
 
             .header-logo-text {
-                font-size: 20px;
-                font-family: "Quantico";
+                font-size: larger;
             }
         }
     
@@ -29,6 +29,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-evenly;
+            font-size: medium;
         }
     }
 }
