@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2F303A;
+}
+
 /* FONTS */
 
 /* Poppins (Black, Bold, Italic, Light, Regular, Thin) */
@@ -145,17 +155,3 @@
         font-weight: 900;
         src: url(./assets/fonts/Poppins/Poppins-BlackItalic.ttf);
     }
-
-/* UNIVERSAL SELECTOR */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* UNIVERSAL PROJECT STYLES */
-body {
-    color: #FFFFFF;
-    background-color: #2F303A;
-    font-family: 'Poppins';
-}
