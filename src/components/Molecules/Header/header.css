@@ -1,0 +1,35 @@
+.header-container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* Logo Styles */
+    .soundwave-home-link {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .soundwave-home-link:hover {
+        color: #FFFFFF;
+        background-color: rgba(85, 25, 135, 0.75);
+    }
+
+    .header-navbar-container {
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        background-color: rgb(85, 25, 141);
+    
+        .header-navbar-element {
+            color: #FFFFFF;
+            font-size: medium;
+            text-decoration: none;
+        }
+    }
+}
