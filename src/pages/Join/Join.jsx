@@ -1,8 +1,14 @@
 
+// Components
+import Header from "../../components/Molecules/Header/Header";
 
+/* FUNCTIONALITY */
 function Join() {
   return (
-    <div>Join</div>
+    <>
+      <Header />
+      <p>JOIN PAGE</p>
+    </>
   )
 }
 

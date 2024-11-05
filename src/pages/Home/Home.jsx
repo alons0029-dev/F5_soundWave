@@ -1,11 +1,13 @@
 
-import Header from "../../components/Molecules/Header/Header.jsx";
-import "./home.css";
+// Components
+import Header from "../../components/Molecules/Header/Header"
 
+/* FUNCTIONALITY */
 function Home() {
   return (
     <>
-        <Header />
+      <Header />
+      <p>HOME PAGE</p>
     </>
   )
 }

@@ -1,18 +1,18 @@
-.soundwave-icon-container {
+.soundwave-logo-container {
     width: 200px;
     height: 75px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
 
-    .soundwave-icon {
+.soundwave-icon {
         width: 48px;
         height: 48px;
-    }
+}
 
-    .soundwave-icon-text {
-        font-size: larger;
-        font-family: "Poppins";
-    }
+.soundwave-icon-text {
+    font-size: larger;
+    font-family: "Poppins";
 }

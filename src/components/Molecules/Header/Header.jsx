@@ -1,16 +1,18 @@
 
-// Components
+// REACT-ROUTER-DOM Component
 import { NavLink } from "react-router-dom";
+
+// Components
 import SoundwaveLogo from "../../Atoms/SoundwaveLogo/SoundwaveLogo.jsx";
 
 // Style
 import "./header.css";
 
-// Functionality
+/* FUNCTIONALITY */
 function Header() {
   return (
     <div className="header-container">
-        <NavLink className="soundwave-home-link" to="/">
+        <NavLink className="soundwave-home-logo" to="/">
             <SoundwaveLogo />
         </NavLink>
         <nav className="header-navbar-container">
