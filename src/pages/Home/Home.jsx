@@ -1,6 +1,6 @@
 
 // Components
-import Header from "../../components/Molecules/Header/Header"
+import Header from "../../components/Molecules/Header/Header.jsx";
 
 /* FUNCTIONALITY */
 function Home() {

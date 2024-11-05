@@ -1,6 +1,7 @@
 
 // Components
-import Header from "../../components/Molecules/Header/Header";
+import Header from "../../components/Molecules/Header/Header.jsx";
+import Footer from "../../components/Molecules/Footer/Footer.jsx";
 
 /* FUNCTIONALITY */
 function Join() {
@@ -8,6 +9,7 @@ function Join() {
     <>
       <Header />
       <p>JOIN PAGE</p>
+      <Footer />
     </>
   )
 }

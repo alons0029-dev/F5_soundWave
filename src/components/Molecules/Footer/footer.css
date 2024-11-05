@@ -1,0 +1,67 @@
+
+/* FOOTER */
+.footer-container {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+/* Help Section */
+.footer-help-container {
+    width: 250px;
+}
+
+.footer-help-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Help Section - Element */
+.footer-help-element {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.footer-help-element:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+
+/* Social Section */
+.footer-social-section {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Social Network - Element */
+.social-network-element {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+}
+
+.social-network-element:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Social Network - Icons */
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
