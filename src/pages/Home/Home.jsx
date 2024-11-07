@@ -2,6 +2,9 @@
 // Components
 import Header from "../../components/Molecules/Header/Header.jsx";
 
+// Style
+import "./home.css";
+
 /* FUNCTIONALITY */
 function Home() {
   return (
