@@ -48,6 +48,10 @@
         background-color: #2F303A;
     }
 
+    .join-form-input-style:hover {
+        border: 2px solid #FFFFFF;   
+    }
+
     /* Button */
     .join-form-btn {
         width: 350px;
@@ -58,4 +62,8 @@
         border: 2px solid #2796FF;
         border-radius: 5px;
         background-color: #1762A7;
+    }
+
+    .join-form-btn:hover {
+        border: 2px solid #FFFFFF;   
     }
