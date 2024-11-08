@@ -1,6 +1,10 @@
 
 // Components
 import Header from "../../components/Molecules/Header/Header.jsx";
+import HomeMain from "../../components/Molecules/HomeMain/HomeMain.jsx";
+
+// Images
+import homeImage from "../../assets/landing-page-girl.png";
 
 // Style
 import "./home.css";
@@ -10,7 +14,10 @@ function Home() {
   return (
     <>
       <Header />
-      <p>HOME PAGE</p>
+      <div className="home-content-container">
+        <img src={homeImage} alt="girl-background-image" />
+        <HomeMain />
+      </div>
     </>
   )
 }
