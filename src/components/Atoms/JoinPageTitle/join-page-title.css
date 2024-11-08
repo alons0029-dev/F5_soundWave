@@ -1,14 +1,21 @@
 
 /* Join Page Title */
     .join-page-title-container {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
 /* Title Text Style */
     .join-page-title-text {
-
+        font-weight: 700;
+        font-size: 48px;
     }
 
 /* Title ALT Text Style */
     .join-page-title-alt-text {
-
+        font-weight: 700;
+        color: #BC3A80;
     }

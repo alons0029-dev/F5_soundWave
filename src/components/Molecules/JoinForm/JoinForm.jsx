@@ -9,18 +9,18 @@ const JoinForm = () => {
         <form className="join-form-content">
             <div className="join-form-input-container">
                 <label className="join-form-name-title">Name:</label>
-                <input required type="text" />
+                <input required type="text" className="join-form-input-style" />
             </div>
             <div className="join-form-input-container">
                 <label className="join-form-email-title">Email:</label>
-                <input required type="email" />
+                <input required type="email" className="join-form-input-style" />
             </div>
             <div className="join-form-input-container">
                 <label className="join-form-password-title">Password:</label>
-                <input required type="password" />
+                <input required type="password" className="join-form-input-style" />
             </div>
         </form>
-        <button className="join-form-btn">Join Now</button>
+        <button type="submit" className="join-form-btn">Join Now</button>
     </div>
   )
 }
