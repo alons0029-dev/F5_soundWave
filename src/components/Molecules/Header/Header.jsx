@@ -1,6 +1,6 @@
 
 // REACT-ROUTER-DOM Component
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // Components
 import SoundwaveLogo from "../../Atoms/SoundwaveLogo/SoundwaveLogo.jsx";
@@ -12,12 +12,12 @@ import "./header.css";
 function Header() {
   return (
     <div className="header-container">
-        <NavLink className="soundwave-home-logo" to="/">
+        <Link className="soundwave-home-logo" to="/">
             <SoundwaveLogo />
-        </NavLink>
+        </Link>
         <nav className="header-navbar-container">
-            <NavLink to="/discover" className="header-navbar-element">Discover</NavLink>
-            <NavLink to="/join" className="header-navbar-element">Join</NavLink>
+            <Link to="/discover" className="header-navbar-element">Discover</Link>
+            <Link to="/join" className="header-navbar-element">Join</Link>
         </nav>
     </div>
   )
