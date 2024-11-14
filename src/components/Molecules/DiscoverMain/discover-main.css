@@ -1,0 +1,10 @@
+
+/* DISCOVER MAIN CONTENT PLACEMENT */
+.discover-main-container {
+    width: 550px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}

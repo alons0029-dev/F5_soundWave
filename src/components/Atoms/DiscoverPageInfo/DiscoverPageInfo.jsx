@@ -1,7 +1,4 @@
 
-// Style
-import "./discover-page-info.css";
-
 /* FUNCTIONALITY */
 const DiscoverPageInfo = () => {
   return (
