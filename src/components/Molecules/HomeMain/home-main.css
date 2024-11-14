@@ -1,0 +1,26 @@
+
+/* HOME MAIN CONTENT PLACEMENT */
+.home-main-container {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+/* JOIN NOW BUTTON */
+.home-main-btn {
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    font-family: "Poppins";
+    color: #FFFFFF;
+    border: 2px solid #2796FF;
+    border-radius: 5px;
+    background-color: #1762A7;
+}
+
+.home-main-btn:hover {
+    border: 2px solid #FFFFFF;   
+}

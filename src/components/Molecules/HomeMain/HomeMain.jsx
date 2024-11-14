@@ -1,4 +1,7 @@
 
+// REACT-ROUTER-DOM Components
+import { Link } from "react-router-dom";
+
 // Components
 import HomePageTitle from "../../Atoms/HomePageTitle/HomePageTitle";
 import HomePageInfo from "../../Atoms/HomePageInfo/HomePageInfo";
@@ -11,7 +14,9 @@ const HomeMain = () => {
     <div className="home-main-container">
         <HomePageTitle />
         <HomePageInfo />
-        <button className="home-main-btn">Join Now</button>
+        <Link to="/join">
+          <button className="home-main-btn">Join Now</button>
+        </Link>
     </div>
   )
 }

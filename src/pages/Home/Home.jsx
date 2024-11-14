@@ -15,7 +15,7 @@ function Home() {
     <>
       <Header />
       <div className="home-content-container">
-        <img src={homeImage} alt="girl-background-image" />
+        <img className="bkg-girl-image" src={homeImage} alt="girl-background-image" />
         <HomeMain />
       </div>
     </>
